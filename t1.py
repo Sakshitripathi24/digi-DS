@@ -5,18 +5,27 @@ speed('slowest')
 distance = 100
 sides = 6
 
-for i in range(sides):
-    pencolor('red')
-    fd(distance)
-    rt(360/sides)
-    circle(distance/2)
-    for i in range(sides):
-        pencolor('blue')
-        rt(360/sides)
-        pencolor('green')
-        fd(distance/4)
-        rt(360/sides)
-        dot(10)
+for i in range(5):
+    fd(100)
+    rt(144)
+    
+    for i in range(5):
+        fd(100)
+        rt(144)
+        for i in range(5):
+            fd(100)
+            rt(144)
+            for i in range(5):
+                fd(100)
+                rt(144)
+                for i in range(5):
+                    fd(100)
+                    rt(144)
+    
+            
+        
+    
+    
         write(i)
     
 hideturtl()
